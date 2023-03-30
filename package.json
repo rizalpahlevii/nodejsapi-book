@@ -1,0 +1,21 @@
+{
+  "name": "submission",
+  "version": "1.0.0",
+  "description": "Boohshelf API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "start-dev": "nodemon src/server.js",
+    "lint": "eslint ./src"
+  },
+  "author": "Briska Irvan Mubaroq",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.1",
+    "nanoid": "^3.3.6",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {
+    "eslint": "^8.37.0"
+  }
+}
